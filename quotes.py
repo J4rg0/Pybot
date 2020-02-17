@@ -1,0 +1,11 @@
+import random
+
+def nurgle():
+    nurgle = ['In the embrace of great Nurgle, I am no longer afraid, for with His pestilential favour I have become that which I once feared: Death.', 'Forgive no slight or grievance. Hold your bitterness deep within, and there let it fester. Let it roil and squirm and churn, until you are filled with bile so poisonous that all you touch falls to ruin.', 'I am a boil on the face of reality, behold as I fester!', 'Rot and Ruin! Rust and Rot! Ruin and Rust!', 'Or have you only comfort, and the lust for comfort, that stealthy thing that enters the house a guest, and then becomes a host and then a master?', 'To me death is not a fearful thing. It\'s living that\'s cursed.', 'If everything is shit, why worry about it?', 'There, feel the glory of necrosis, and rejoice! Nurgle loves you!', 'NURGLE IS LOVE! NURGLE IS LIFE! ALL PRAISE THE PLAGUE FATHER WITH THE CORPSE OF DEATH!', 'Behold the floral magnificence of Nurgle. Budding flowers of flesh growth, the tessellating landscapes of mould spore. There is no beauty to the unadorned. Nurgle is first and foremost an artist. Tzeentch, he is a mere mischief maker, and young Slaanesh no more than a libertine. Let us not even begin with the linear, narrow-minded aggression of Khorne.', 'You are my unbroken blades. You are the Death Guard. By your hand shall justice be delivered, and doom shall stalk a thousand worlds.', 'Sometimes, when I\'m alone, I like to cover myself in Vaseline and pretend I\'m a slug.']
+    quote = random.choice(nurgle)
+    return quote
+
+def tzeentch():
+    tzeentch = ['The only good is knowledge and the only evil is ignorance.', 'If the path to salvation leads through the halls of purgatory, then so be it.', 'Sanity is for the weak!', 'The minds of gods are not for mortals to know or to judge. Accept that Tzeentch has a place for all of us in his grand scheme, and be happy in the part you have to play.', 'All power demands sacrifice... and pain. The universe rewards those willing to spill their life\'s blood for the promise of power.', 'Hope in reality is the worst of all evils because it prolongs the torments of man.', 'Without deviation from the norm, progress is not possible.', 'All is Dust.']
+    quote = random.choice(tzeentch)
+    return quote
